@@ -102,6 +102,8 @@
     <Compile Include="Config\ConnectionStringParser.cs" />
     <Compile Include="Config\SafeRoleEnvironment.cs" />
     <Compile Include="Logging\Azure\Diagnostics.cs" />
+    <Compile Include="SagaPersisters\Azure\DictionaryTableEntityConverter.cs" />
+    <Compile Include="SagaPersisters\Azure\DictionaryTableEntityQueryBuilder.cs" />
     <Compile Include="Transports\DeterministicGuidBuilder.cs" />
     <Compile Include="Transports\ServiceBus\Config\DeterminesBestConnectionString.cs" />
     <Compile Include="Transports\ServiceBus\Creation\AutoCreateTopic.cs" />
